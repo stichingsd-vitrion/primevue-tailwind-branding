@@ -5,6 +5,10 @@ import AppConfigurator from "./AppConfigurator.vue";
 const { toggleDarkMode } = useTheme();
 
 useTheme();
+
+const navigateToGithub = () => {
+  window.open('https://github.com/stichingsd-vitrion/primevue-tailwind-branding', '_blank');
+};
 </script>
 
 <template>
@@ -14,6 +18,7 @@ useTheme();
       <h1 class="text-4xl  font-bold text-center">Tailwind CSS + PrimeVue</h1>
       <Button @click="toggleDarkMode">Toggle dark mode</Button>
       <AppConfigurator />
+      <Button  text class="font-bold" @click="navigateToGithub"  icon="pi pi-github" label="Github"/>
     </section>
   </div>
 </template>
