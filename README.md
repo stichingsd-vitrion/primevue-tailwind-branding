@@ -162,7 +162,7 @@ The primevue-tailwind-branding project combines PrimeVue components with Tailwin
 >
 > 3. Install the dependencies:
 > ```console
-> $ > INSERT-INSTALL-COMMANDS
+> $ npm i
 > ```
 
 ###  Usage
@@ -171,14 +171,7 @@ The primevue-tailwind-branding project combines PrimeVue components with Tailwin
 
 > Run primevue-tailwind-branding using the command below:
 > ```console
-> $ > INSERT-RUN-COMMANDS
-> ```
-
-###  Tests
-
-> Run the test suite using the command below:
-> ```console
-> $ > INSERT-TEST-COMMANDS
+> $ npm run dev
 > ```
 
 ---
@@ -230,7 +223,7 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [GNU GPLv3](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
